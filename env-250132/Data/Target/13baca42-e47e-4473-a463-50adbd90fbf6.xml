@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Target">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="13baca42-e47e-4473-a463-50adbd90fbf6" Name="getting json response when creating spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="GlobalData">
+    <Data>
+      <Properties>
+        <Item key="append_file" value="0"/>
+        <Item key="endoflinetype" value="0"/>
+        <Item key="locator" value="Spreadsheet: Create Spreadsheet Json"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

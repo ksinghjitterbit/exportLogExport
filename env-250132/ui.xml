@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UiState>
+    <OpenPages>
+        <Page id_val="b3e1385f-bcfb-4940-b552-95fb924c07f5" type="Operation" />
+        <Page id_val="9b9923be-b8d8-4aa9-b69c-072b94246a29" type="Operation" />
+        <Page id_val="73a94b0a-df62-4a96-8716-864886ed9061" type="Operation" />
+        <Page id_val="7cf3ecbd-d4d2-45aa-a23b-79ac79d1c1d7" type="Script" />
+        <Page id_val="a10dafd8-09cd-4e90-b52e-f7c0cfe52dd3" type="Target" />
+        <Page id_val="92bec317-5ee6-4b83-a0a2-35538ea1f70e" type="Operation" />
+        <Page id_val="273b3611-fd92-4463-bff6-71383cd76f21" type="Operation" />
+        <Page id_val="3799d66d-ecbf-41c8-b2f3-7cf2298ae4c9" type="Target" />
+    </OpenPages>
+    <ExpandedNodes>
+        <Node id_val="b23f0ec4-51d7-4d5b-b601-343c6dc70c8e" type="RootFolder" />
+        <Node id_val="010c2bee-937f-46c2-9f91-554bb97f595c" type="Folder" />
+        <Node id_val="2e15af1d-3a5d-4480-8fbb-04ed33b3fb80" type="Folder" />
+        <Node id_val="b23f0ec4-51d7-4d5b-b601-343c6dc70c8e" type="RootFolder" />
+        <Node id_val="80878271-b951-4724-ac6d-3e3091ba0e69" type="Folder" />
+        <Node id_val="937c2a94-c6e7-4de2-9b6f-bab7161ec85a" type="RootFolder" />
+        <Node id_val="937c2a94-c6e7-4de2-9b6f-bab7161ec85a" type="RootFolder" />
+        <Node id_val="3db6641a-c42b-4ef3-b3eb-1b0c4454236e" type="Folder" />
+        <Node id_val="c00665c0-0c2b-44dc-8476-ba5c02861e8d" type="RootFolder" />
+        <Node id_val="f20c7fec-0684-4e39-bc98-c6e247d6dcef" type="Folder" />
+        <Node id_val="41ae326b-60f1-4f75-845d-bf6218a4f0bd" type="Folder" />
+        <Node id_val="c00665c0-0c2b-44dc-8476-ba5c02861e8d" type="RootFolder" />
+        <Node id_val="5f86faf9-8c12-4eab-81f7-92c3ace5c34d" type="Folder" />
+        <Node id_val="2fdf8621-77f8-4a41-8a28-4b66e70ab99b" type="RootFolder" />
+        <Node id_val="d9de32b2-1456-4455-ace6-98ce8c09a45e" type="Folder" />
+        <Node id_val="14c5e506-5f2a-4e34-b3f1-b358508823b7" type="Folder" />
+        <Node id_val="2fdf8621-77f8-4a41-8a28-4b66e70ab99b" type="RootFolder" />
+        <Node id_val="22634657-9861-46a9-a948-adf5914ca82e" type="Folder" />
+        <Node id_val="ead1451c-c09d-4334-b612-bc0670d6d13d" type="RootFolder" />
+        <Node id_val="ead1451c-c09d-4334-b612-bc0670d6d13d" type="RootFolder" />
+        <Node id_val="a59148d8-6b99-4817-a354-690df74b59c8" type="RootFolder" />
+        <Node id_val="26340c79-db08-4fed-a5ac-b9f6706140cb" type="Folder" />
+        <Node id_val="cac54f4e-cc2a-4417-b03c-1c4c9190065b" type="Folder" />
+        <Node id_val="2e085f3c-fdc5-49be-b83f-6b53cb523198" type="Folder" />
+        <Node id_val="a59148d8-6b99-4817-a354-690df74b59c8" type="RootFolder" />
+        <Node id_val="ded402f9-dc31-4edf-be54-dba828d85688" type="RootFolder" />
+        <Node id_val="ded402f9-dc31-4edf-be54-dba828d85688" type="RootFolder" />
+        <Node id_val="eddf34ae-8eff-4e7f-918b-ebba2d83738d" type="Folder" />
+    </ExpandedNodes>
+</UiState>

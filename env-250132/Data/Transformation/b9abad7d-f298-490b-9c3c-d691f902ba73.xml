@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="b9abad7d-f298-490b-9c3c-d691f902ba73" Name="New Transformation">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoSourceXmlValidation" value="false"/>
+    <Item key="natureofsource" value="Tree"/>
+    <Item key="natureoftarget" value="Flat"/>
+    <Item key="NoSourceDataUsedInMapping" value="0"/>
+    <Item key="source_type_id" value="4"/>
+    <Item key="source_xml" value="essendex input.xsd"/>
+    <Item key="sourcedtd_root" value="messages"/>
+    <Item key="target_text_doc" value="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+    <Item key="target_type_id" value="1"/>
+    <Item key="use_jbxmlparser" value="true"/>
+  </Properties>
+  <OutputStructure docId="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">[]	[messages$]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">Text	&lt;trans&gt;
+GetXmlString([messages$message$]);
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

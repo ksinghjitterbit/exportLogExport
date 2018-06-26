@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="dd8ff573-a7ba-40cf-85cb-4e6b58249c58" Name="Google: Refresh Access Token">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_id" value="dd8ff573-a7ba-40cf-85cb-4e6b58249c58"/>
+    <Item key="operation_type_id" value="1"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="source_id" value="aee9efd4-1996-4db5-bcff-f1251f43b6d7"/>
+    <Item key="success_operation_id" value="291938d1-96b1-4e82-a675-e8ebfc245bd2"/>
+    <Item key="target_chunk_node" value=""/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="target_id" value="32211b79-4a93-4ecb-a90f-b1b67c83fa26"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Archive">
+    <Activities>
+      <SCRIPT activityId="59dd544f-1415-4910-a8ba-aeef60dd4f09" contentId="2e0d3220-b09b-431f-9751-12ccee6eea0b" role="Script" type="23"/>
+      <SOURCE activityId="a81108d7-e168-4a17-90fa-d6869a4d62c8" contentId="aee9efd4-1996-4db5-bcff-f1251f43b6d7" role="Source" type="2"/>
+      <TARGET activityId="b18b0851-88bd-4e8a-a0f2-e7c3a4105f9a" contentId="32211b79-4a93-4ecb-a90f-b1b67c83fa26" role="Target" type="3"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

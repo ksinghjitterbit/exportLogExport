@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Target">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="3799d66d-ecbf-41c8-b2f3-7cf2298ae4c9" Name="Appending to Spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="HTTP">
+    <Data>
+      <Properties>
+        <Item key="allow_weak_ciphers" value="0"/>
+        <Item key="enable_chunked_transfer_encoding" value="0"/>
+        <Item key="enable_content_encoding" value="0"/>
+        <Item key="http_accept_encoding_gzip" value="1"/>
+        <Item key="http_method" value="POST"/>
+        <Item key="http_request_headers" value="Cache-Control: no-cache"/>
+        <Item key="http_ssl_version" value="0"/>
+        <Item key="http_verb" value="2"/>
+        <Item key="httpContentType" value="application/json"/>
+        <Item enc="true" key="httpurl" value="$00l1NtYFcqj48XY3s5iVxSn8l+MqUp5fdRv6R8ag9JnM/lt4G0exr7IcRipB//MCLktvoO2dEzMTswjv0zDI0FUOBzmULcUThj2ukbMrBhDqW6PcTXb6CEIN7UH0ZoeDGvd27bxoFuZeTixByaX7npoXaIl78J9+59MqZJkQN5gG84oOceJ3FH7H0Q0vlEOaINi4mzHtXTL570GcpYNVitThxXWz84H5djHJTMvSg30/o="/>
+        <Item key="login"/>
+        <Item key="password"/>
+        <Item key="proxy_tunnel" value="0"/>
+        <Item key="send_expect_100_continue" value="0"/>
+        <Item key="use_basic_http_authentication" value="0"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

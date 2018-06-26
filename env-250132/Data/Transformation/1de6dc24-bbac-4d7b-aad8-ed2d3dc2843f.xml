@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="1de6dc24-bbac-4d7b-aad8-ed2d3dc2843f" Name="Google: Read Access Token">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoSourceXmlValidation" value="false"/>
+    <Item key="DoTargetXmlValidation" value="false"/>
+    <Item key="natureofsource" value="Tree"/>
+    <Item key="natureoftarget" value="Tree"/>
+    <Item key="NoSourceDataUsedInMapping" value="0"/>
+    <Item key="sfdc_edgemart_structure_guid" value=""/>
+    <Item key="source_type_id" value="17"/>
+    <Item key="source_xml" value="jitterbit.json.refresh_token.xsd"/>
+    <Item key="sourcedtd_root" value="json"/>
+    <Item key="target_dtd_url" value=""/>
+    <Item key="target_type_id" value="17"/>
+    <Item key="target_xml" value="jitterbit.json.refresh_token.xsd"/>
+    <Item key="targetdtd_root" value="json"/>
+    <Item key="transformation_id" value="1de6dc24-bbac-4d7b-aad8-ed2d3dc2843f"/>
+  </Properties>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">json$access_token$	&lt;trans&gt;
+
+// Set global var
+$google.access.token = json$access_token$;
+
+// Log
+WriteToOperationLog('Access Token:' + $google.access.token);
+
+$google.access.token;
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">json$token_type$	&lt;trans&gt;
+json$token_type$
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">json$expires_in$	&lt;trans&gt;
+
+// Set global var
+$google.access.token.expires = int(now()) + int(json$expires_in$) - 60;
+
+// Log
+WriteToOperationLog('This token will expire at:' + $google.access.token.expires);
+
+$google.access.token.expires
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

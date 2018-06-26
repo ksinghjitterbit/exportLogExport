@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Target">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="32211b79-4a93-4ecb-a90f-b1b67c83fa26" Name="Token Refresh">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="target_id" value="32211b79-4a93-4ecb-a90f-b1b67c83fa26"/>
+  </Properties>
+  <Location type="HTTP">
+    <Data>
+      <Properties>
+        <Item key="allow_weak_ciphers" value="0"/>
+        <Item key="archive_encryption_mode" value=""/>
+        <Item key="archive_mode" value=""/>
+        <Item key="compress_format" value=""/>
+        <Item key="enable_chunked_transfer_encoding" value="0"/>
+        <Item key="enable_content_encoding" value="0"/>
+        <Item key="filenames_in_archive" value=""/>
+        <Item key="http_accept_encoding_gzip" value="1"/>
+        <Item key="http_method" value="POST"/>
+        <Item key="http_request_headers" value="Content-Type: application/x-www-form-urlencoded&#10;Cache-Control: no-cache&#10;Postman-Token: b6fb0429-0821-4e92-b8ec-ced98b26e8eb&#10;&#10;refresh_token=1%2FskJT-1xickTAJT273Io1w2-GDBHKSffg3DItCyskLG4&amp;client_id=867203574478-qk8v12juvkb8qe49fqh31ej5smkcrmgq.apps.googleusercontent.com&amp;client_secret=Ga7SNQP3B6z4OVxxcEc_5Ijq&amp;grant_type=refresh_token"/>
+        <Item key="http_ssl_version" value="0"/>
+        <Item key="http_verb" value="2"/>
+        <Item key="httpContentType" value="application/x-www-form-urlencoded"/>
+        <Item enc="true" key="httpurl" value="$00GuX518o2e5wWUKFOZsu4QVddn1HaWeQXasn0hWXayXAu0oO6O3XtxmDn12zI+DWDXN4x6Y9av53ydfweyqoy1g=="/>
+        <Item key="proxy_tunnel" value="0"/>
+        <Item key="send_expect_100_continue" value="0"/>
+        <Item key="target_target_id" value="083f182d-92d1-4341-9eda-a8c7b9d96f20"/>
+        <Item key="use_basic_http_authentication" value="0"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="d1e6e6f1-ea54-4b7b-8031-4ad4f0a2c6b9" Name="Putting title to create spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoTargetXmlValidation" value="false"/>
+    <Item key="natureoftarget" value="Tree"/>
+    <Item key="NoSourceDataUsedInMapping" value="1"/>
+    <Item key="source_type_id" value="13"/>
+    <Item key="target_type_id" value="17"/>
+    <Item key="target_xml" value="jitterbit.json.input_create.xsd"/>
+    <Item key="targetdtd_root" value="json"/>
+  </Properties>
+  <InputStructure>
+    <Properties/>
+  </InputStructure>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">json$properties$title$	&lt;trans&gt;
+'TEST_TITLE'
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

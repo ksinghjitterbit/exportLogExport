@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="_root_">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Person"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Person">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Addresses"/>
+        <xs:element ref="PhoneNumbers"/>
+        <xs:element ref="EmailAddresses"/>
+      </xs:sequence>
+      <xs:attribute name="CorporateID" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="CountryOfBirth" use="required" type="xs:integer"/>
+      <xs:attribute name="FirstName" use="required" type="xs:NCName"/>
+      <xs:attribute name="Gender" use="required" type="xs:NCName"/>
+      <xs:attribute name="Surname" use="required" type="xs:NCName"/>
+      <xs:attribute name="Title" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Addresses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Address"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Address">
+    <xs:complexType>
+      <xs:attribute name="AddressType" use="required" type="xs:NCName"/>
+      <xs:attribute name="CountryID" use="required" type="xs:integer"/>
+      <xs:attribute name="Line1" use="required"/>
+      <xs:attribute name="Locality" use="required"/>
+      <xs:attribute name="PostCode" use="required" type="xs:integer"/>
+      <xs:attribute name="State" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PhoneNumbers">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="EmailAddresses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Email"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Email">
+    <xs:complexType>
+      <xs:attribute name="Address" use="required"/>
+      <xs:attribute name="EmailType" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

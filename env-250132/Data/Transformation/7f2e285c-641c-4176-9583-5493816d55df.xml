@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="7f2e285c-641c-4176-9583-5493816d55df" Name="None to XML">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoTargetXmlValidation" value="false"/>
+    <Item key="natureoftarget" value="Tree"/>
+    <Item key="NoSourceDataUsedInMapping" value="1"/>
+    <Item key="source_type_id" value="13"/>
+    <Item key="target_type_id" value="4"/>
+    <Item key="target_xml" value="person.xsd"/>
+    <Item key="targetdtd_root" value="_root_"/>
+  </Properties>
+  <InputStructure>
+    <Properties/>
+  </InputStructure>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">[_root_$Person.]	[]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">[_root_$Person.EmailAddresses$Email.]	[]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.CorporateID	&lt;trans&gt;
+1
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.CountryOfBirth	&lt;trans&gt;
+2
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.FirstName	&lt;trans&gt;
+3
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Gender	&lt;trans&gt;
+4
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Surname	&lt;trans&gt;
+5
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Title	&lt;trans&gt;
+6
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Addresses$Address$AddressType	&lt;trans&gt;
+7
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Addresses$Address$CountryID	&lt;trans&gt;
+8
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Addresses$Address$Line1	&lt;trans&gt;
+9
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Addresses$Address$Locality	&lt;trans&gt;
+10
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Addresses$Address$PostCode	&lt;trans&gt;
+11
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.Addresses$Address$State	&lt;trans&gt;
+12
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.EmailAddresses$Email.Address	&lt;trans&gt;
+123
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">_root_$Person.EmailAddresses$Email.EmailType	&lt;trans&gt;
+235
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

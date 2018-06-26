@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Source">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="a68c9c8b-0b87-4c5b-94fb-0300d4f9d17a" Name="Google: Access Token Json">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="source_id" value="a68c9c8b-0b87-4c5b-94fb-0300d4f9d17a"/>
+  </Properties>
+  <Location type="GlobalData">
+    <Data>
+      <Properties>
+        <Item key="locator" value="google.access.token.json"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

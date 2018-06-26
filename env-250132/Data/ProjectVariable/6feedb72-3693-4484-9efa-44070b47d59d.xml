@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="ProjectVariable">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="6feedb72-3693-4484-9efa-44070b47d59d" Name="google.client_secret">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="description" value=""/>
+    <Item key="hide_value" value="0"/>
+    <Item key="label" value=""/>
+    <Item key="projectvariable_id" value="6feedb72-3693-4484-9efa-44070b47d59d"/>
+    <Item enc="true" key="value" value="$007/Nu/vT42iRTGHV+bf+/+8AW6UByQwVQhxscNMw52IsG6boCvqpnOYxHswoUCZJ6"/>
+  </Properties>
+</Entity>

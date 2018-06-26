@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Folder">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="50a16202-ea3e-41f3-a443-4190436a7514" Name="Google">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+</Entity>

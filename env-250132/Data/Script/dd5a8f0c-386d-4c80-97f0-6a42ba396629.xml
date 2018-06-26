@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="dd5a8f0c-386d-4c80-97f0-6a42ba396629" Name="success/failure of create Spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+//implement failure and success of the create spreadsheet request
+&lt;/trans&gt;</konga.string>
+</Entity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="7fbc423a-3bb4-4635-8514-afe32bd16856" Name="New Script">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+body = "&lt;?xml version='1.0' encoding='UTF-8'?&gt;  
+&lt;messages&gt;  
+    &lt;accountreference&gt;EX0260653&lt;/accountreference&gt;
+    &lt;message&gt;
+        &lt;to&gt;61404988081&lt;/to&gt;
+        &lt;body&gt;Every message matters!&lt;/body&gt;
+    &lt;/message&gt;  
+&lt;/messages&gt;";
+
+WriteFile("t.b2d734f2-f49a-485a-9d7a-0fb9d49fdf23", body);
+
+FlushFile("t.e903d3f8-1845-477c-a4ca-7f9d1a698d6b");
+WriteToOperationLog(ReadFile("s.b6c48f7e-0b49-46f5-b56e-881384ae8430"))
+&lt;/trans&gt;</konga.string>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Folder">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="5f86faf9-8c12-4eab-81f7-92c3ace5c34d" Name="Google OAuth 2.0">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+</Entity>

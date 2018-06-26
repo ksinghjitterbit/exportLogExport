@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="4e1e0965-0471-454d-8253-6a7d46684bd5" Name="Angus Opertation">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_type_id" value="3"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="schedule_id" value="ff229151-aca3-4367-a891-6689166162e4"/>
+    <Item key="schedule_policy" value="skip_if_running"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="target_chunk_node" value="-flat-"/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="target_id" value="04ae8b46-eb02-45de-a454-2a8eaa5c3a59"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Transformation">
+    <Activities>
+      <TRANSFORMATION activityId="974a9ac0-335c-4532-ba00-b44f56175750" contentId="7f2e285c-641c-4176-9583-5493816d55df" role="Transformation" type="4"/>
+      <TARGET activityId="121d50ee-6444-4f3a-a9dc-5269fa426846" contentId="04ae8b46-eb02-45de-a454-2a8eaa5c3a59" role="Target" type="3"/>
+      <SCRIPT activityId="69aa9a26-005f-42d9-9603-6a0ec40bed66" contentId="f50e9a13-71c1-4fe3-883f-c15d938df2ca" role="Script" type="23"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

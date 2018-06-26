@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="20352546-687f-42d9-b1fc-487db671d11b" Name="Calling create Spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+body = "{
+  'properties': {
+    'title': 'QSR12',
+  }
+}";
+
+WriteFile("t.a10dafd8-09cd-4e90-b52e-f7c0cfe52dd3", body);
+
+
+//ReadFile("s.811c3343-9e95-49de-8aab-056a9f465d96")
+
+
+&lt;/trans&gt;</konga.string>
+</Entity>

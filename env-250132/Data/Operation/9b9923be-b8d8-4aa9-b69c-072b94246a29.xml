@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="9b9923be-b8d8-4aa9-b69c-072b94246a29" Name="Get Refresh code and Append to Spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_type_id" value="8"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="success_operation_id" value="273b3611-fd92-4463-bff6-71383cd76f21"/>
+    <Item key="target_chunk_node" value=""/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Script">
+    <Activities>
+      <SCRIPT activityId="bbdf0743-c42e-4314-bfd0-7fc4683e956c" contentId="7cf3ecbd-d4d2-45aa-a23b-79ac79d1c1d7" role="Script" type="23"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

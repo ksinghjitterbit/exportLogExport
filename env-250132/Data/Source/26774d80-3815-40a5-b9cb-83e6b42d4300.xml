@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Source">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="26774d80-3815-40a5-b9cb-83e6b42d4300" Name="temporary test file">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="TemporaryStorage">
+    <Data>
+      <Properties>
+        <Item key="character_encoding" value=""/>
+        <Item key="file_name" value="testFile"/>
+        <Item key="filterOption.ignoreCase" value="0"/>
+        <Item key="filterOption.regularExpression" value="0"/>
+        <Item key="ignore_first" value="0"/>
+        <Item key="ignore_last" value="0"/>
+        <Item key="renamefileto" value=""/>
+        <Item key="trigger_filename" value=""/>
+        <Item key="use_trigger_file" value="0"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

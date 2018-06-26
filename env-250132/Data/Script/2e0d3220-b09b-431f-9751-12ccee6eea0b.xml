@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="2e0d3220-b09b-431f-9751-12ccee6eea0b" Name="Google: Build Refresh Header">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_id" value="2e0d3220-b09b-431f-9751-12ccee6eea0b"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+
+$google.post = "client_id="+$google.client_id+
+"&amp;client_secret="+$google.client_secret+
+"&amp;refresh_token="+$google.refresh_token+
+"&amp;grant_type=refresh_token";
+
+&lt;/trans&gt;</konga.string>
+</Entity>

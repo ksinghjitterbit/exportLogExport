@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Source">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="aee9efd4-1996-4db5-bcff-f1251f43b6d7" Name="Google: Refresh Header">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="source_id" value="aee9efd4-1996-4db5-bcff-f1251f43b6d7"/>
+  </Properties>
+  <Location type="GlobalData">
+    <Data>
+      <Properties>
+        <Item key="locator" value="google.post"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

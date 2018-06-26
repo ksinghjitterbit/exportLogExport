@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="252d036c-b8fa-45d0-bddb-ca03efeb3938" Name="Calling common Operation to get Token">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+RunOperation("op.73a94b0a-df62-4a96-8716-864886ed9061")
+&lt;/trans&gt;</konga.string>
+</Entity>

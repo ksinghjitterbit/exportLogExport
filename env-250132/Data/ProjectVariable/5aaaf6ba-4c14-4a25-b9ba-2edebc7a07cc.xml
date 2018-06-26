@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="ProjectVariable">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="5aaaf6ba-4c14-4a25-b9ba-2edebc7a07cc" Name="google.refresh_token">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="Description" value=""/>
+    <Item key="hide_value" value="0"/>
+    <Item key="label" value=""/>
+    <Item key="projectvariable_id" value="5aaaf6ba-4c14-4a25-b9ba-2edebc7a07cc"/>
+    <Item enc="true" key="value" value="$00m51LobI0YZ25CePJBxzO7CsICyJn/e6DaFmr0tVJacDzerb3JcNG60Hw1rDn3AMcNbx+9d1KH+AKV5I5oXSmTQ=="/>
+  </Properties>
+</Entity>

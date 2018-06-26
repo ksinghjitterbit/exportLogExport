@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="7e74891d-a494-4357-8a02-37611b7f638d" Name="Copy of New Transformation">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoTargetXmlValidation" value="false"/>
+    <Item key="natureoftarget" value="Tree"/>
+    <Item key="NoSourceDataUsedInMapping" value="1"/>
+    <Item key="source_type_id" value="13"/>
+    <Item key="target_type_id" value="4"/>
+    <Item key="target_xml" value="essendex input.xsd"/>
+    <Item key="targetdtd_root" value="messages"/>
+    <Item key="transformation_id" value="7e74891d-a494-4357-8a02-37611b7f638d"/>
+  </Properties>
+  <InputStructure>
+    <Properties/>
+  </InputStructure>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">messages$accountreference$	&lt;trans&gt;
+"EX0260653"
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">messages$message$to$	&lt;trans&gt;
+61404988081
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">messages$message$body$	&lt;trans&gt;
+"Test text message from jitterbit using essendex"
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

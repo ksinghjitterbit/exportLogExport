@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="f50e9a13-71c1-4fe3-883f-c15d938df2ca" Name="reading from temporary file">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+$xml=ReadFile("s.26774d80-3815-40a5-b9cb-83e6b42d4300");
+WriteToOperationLog($xml);
+&lt;/trans&gt;</konga.string>
+</Entity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="1cb23787-b5e6-4f3b-aaf3-8966fb921a25" Name="Appending body using Script_append Spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+//body="
+//{
+//  'values': [
+//    [
+//      2,
+//      3,
+//      'new'
+//    ],
+//    [
+//      3
+//    ]
+//  ]
+//}
+//";
+//WriteFile(&lt;target_id&gt;, &lt;file_contents&gt;, ...)
+&lt;/trans&gt;</konga.string>
+</Entity>

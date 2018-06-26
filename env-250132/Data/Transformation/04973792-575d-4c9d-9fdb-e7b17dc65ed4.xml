@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="04973792-575d-4c9d-9fdb-e7b17dc65ed4" Name="Header Transformation to JSON request to Append">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoTargetXmlValidation" value="false"/>
+    <Item key="natureofsource" value="Flat"/>
+    <Item key="natureoftarget" value="Tree"/>
+    <Item key="NoSourceDataUsedInMapping" value="0"/>
+    <Item key="source_text_doc" value="ce772d84-85c5-4a17-b8a3-0a947fb00f41"/>
+    <Item key="source_type_id" value="1"/>
+    <Item key="target_type_id" value="17"/>
+    <Item key="target_xml" value="jitterbit.json.Input_Append.xsd"/>
+    <Item key="targetdtd_root" value="json"/>
+  </Properties>
+  <InputStructure docId="ce772d84-85c5-4a17-b8a3-0a947fb00f41"/>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">[json$values$array.]	[]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">[json$values$array.item.]	[]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">json$values$array.item.	&lt;trans&gt;
+Header
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="e9390920-a043-4895-a2e2-df6cdaba2340" Name="Get Spreadsheet ID">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_type_id" value="3"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="source_id" value="f6cfaf56-107d-4920-a849-4c999f379f5d"/>
+    <Item key="target_chunk_node" value="-flat-"/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Transformation">
+    <Activities>
+      <SOURCE activityId="1ac7cfab-e125-470c-8d56-1208ebd45b22" contentId="f6cfaf56-107d-4920-a849-4c999f379f5d" role="Source" type="2"/>
+      <TRANSFORMATION activityId="d1b9873c-6a0a-464f-bd6c-893c1a188e39" contentId="7b5abdbc-110a-486a-bbd9-bfde256efac4" role="Transformation" type="4"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

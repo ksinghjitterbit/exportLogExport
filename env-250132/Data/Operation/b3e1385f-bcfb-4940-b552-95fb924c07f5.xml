@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="b3e1385f-bcfb-4940-b552-95fb924c07f5" Name="(*)Append to Spreadsheet using GLobal Variable">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_type_id" value="8"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="target_chunk_node" value=""/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Script">
+    <Activities>
+      <SCRIPT activityId="20200a33-7c91-4004-9dd3-aedeb60a3fd1" contentId="1cb23787-b5e6-4f3b-aaf3-8966fb921a25" role="Script" type="23"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

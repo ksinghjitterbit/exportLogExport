@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="json">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="spreadsheetId" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="properties" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+              <xs:element minOccurs="0" name="locale" nillable="true" type="xs:string"/>
+              <xs:element minOccurs="0" name="autoRecalc" nillable="true" type="xs:string"/>
+              <xs:element minOccurs="0" name="timeZone" nillable="true" type="xs:string"/>
+              <xs:element minOccurs="0" name="defaultFormat" nillable="true">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="backgroundColor" nillable="true">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="red" nillable="true" type="xs:double"/>
+                          <xs:element minOccurs="0" name="green" nillable="true" type="xs:double"/>
+                          <xs:element minOccurs="0" name="blue" nillable="true" type="xs:double"/>
+                        </xs:sequence>
+                        <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="padding" nillable="true">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="top" nillable="true" type="xs:double"/>
+                          <xs:element minOccurs="0" name="right" nillable="true" type="xs:double"/>
+                          <xs:element minOccurs="0" name="bottom" nillable="true" type="xs:double"/>
+                          <xs:element minOccurs="0" name="left" nillable="true" type="xs:double"/>
+                        </xs:sequence>
+                        <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="verticalAlignment" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="wrapStrategy" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="textFormat" nillable="true">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="foregroundColor" nillable="true">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="fontFamily" nillable="true" type="xs:string"/>
+                          <xs:element minOccurs="0" name="fontSize" nillable="true" type="xs:double"/>
+                          <xs:element minOccurs="0" name="bold" nillable="true" type="xs:boolean"/>
+                          <xs:element minOccurs="0" name="italic" nillable="true" type="xs:boolean"/>
+                          <xs:element minOccurs="0" name="strikethrough" nillable="true" type="xs:boolean"/>
+                          <xs:element minOccurs="0" name="underline" nillable="true" type="xs:boolean"/>
+                        </xs:sequence>
+                        <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="sheets" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="properties" nillable="true">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="sheetId" nillable="true" type="xs:double"/>
+                    <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="index" nillable="true" type="xs:double"/>
+                    <xs:element minOccurs="0" name="sheetType" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="gridProperties" nillable="true">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="rowCount" nillable="true" type="xs:double"/>
+                          <xs:element minOccurs="0" name="columnCount" nillable="true" type="xs:double"/>
+                        </xs:sequence>
+                        <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute fixed="true" name="array" type="xs:string" use="required"/>
+            <xs:attribute fixed="true" name="simple" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="spreadsheetUrl" nillable="true" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute fixed="true" name="object" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

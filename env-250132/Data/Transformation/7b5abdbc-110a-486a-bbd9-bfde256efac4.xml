@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="7b5abdbc-110a-486a-bbd9-bfde256efac4" Name="Response_create_spreadsheet to SpreadsheetID">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoSourceXmlValidation" value="false"/>
+    <Item key="natureofsource" value="Tree"/>
+    <Item key="natureoftarget" value="Flat"/>
+    <Item key="NoSourceDataUsedInMapping" value="0"/>
+    <Item key="source_type_id" value="17"/>
+    <Item key="source_xml" value="jitterbit.json.response_create_spreadsheet.xsd"/>
+    <Item key="sourcedtd_root" value="json"/>
+    <Item key="target_text_doc" value="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+    <Item key="target_type_id" value="1"/>
+  </Properties>
+  <OutputStructure docId="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">[]	[json$]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">Text	&lt;trans&gt;
+$spreadsheetId = json$spreadsheetId$;
+WriteToOperationLog($spreadsheetId);
+$spreadsheetId;
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

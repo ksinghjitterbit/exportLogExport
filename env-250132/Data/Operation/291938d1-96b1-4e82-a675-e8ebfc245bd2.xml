@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="291938d1-96b1-4e82-a675-e8ebfc245bd2" Name="Google: Read Access token">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="description" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_id" value="291938d1-96b1-4e82-a675-e8ebfc245bd2"/>
+    <Item key="operation_type_id" value="3"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="source_id" value="a68c9c8b-0b87-4c5b-94fb-0300d4f9d17a"/>
+    <Item key="target_chunk_node" value=""/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="trace" value="1"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Transformation">
+    <Activities>
+      <SOURCE activityId="bdb99928-506a-4ccf-8267-98be621860c4" contentId="a68c9c8b-0b87-4c5b-94fb-0300d4f9d17a" role="Source" type="2"/>
+      <TRANSFORMATION activityId="c5263ee7-48d1-4005-a9c5-c5b584542cb0" contentId="1de6dc24-bbac-4d7b-aad8-ed2d3dc2843f" role="Transformation" type="4"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

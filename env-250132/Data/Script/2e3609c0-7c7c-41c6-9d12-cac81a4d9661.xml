@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="2e3609c0-7c7c-41c6-9d12-cac81a4d9661" Name="Refresh Token">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+RunOperation("op.dd8ff573-a7ba-40cf-85cb-4e6b58249c58")
+&lt;/trans&gt;</konga.string>
+</Entity>

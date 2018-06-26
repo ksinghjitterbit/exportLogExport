@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="273b3611-fd92-4463-bff6-71383cd76f21" Name="Append to Spreadsheet">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_type_id" value="3"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="source_id" value="2febe274-fd73-4801-968e-97833a8ebeab"/>
+    <Item key="target_chunk_node" value=""/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="target_id" value="3799d66d-ecbf-41c8-b2f3-7cf2298ae4c9"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Transformation">
+    <Activities>
+      <SOURCE activityId="fb4ff811-9b77-4561-9263-bcec730c5143" contentId="2febe274-fd73-4801-968e-97833a8ebeab" role="Source" type="2"/>
+      <TRANSFORMATION activityId="732f50fb-7292-4514-82a8-6c0e50b14e2b" contentId="04973792-575d-4c9d-9fdb-e7b17dc65ed4" role="Transformation" type="4"/>
+      <TARGET activityId="1d1bd7af-d320-4daa-bedc-af9ca0305bd0" contentId="3799d66d-ecbf-41c8-b2f3-7cf2298ae4c9" role="Target" type="3"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

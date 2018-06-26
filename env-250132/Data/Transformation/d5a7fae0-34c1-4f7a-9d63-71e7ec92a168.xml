@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="d5a7fae0-34c1-4f7a-9d63-71e7ec92a168" Name="test Transformation">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="natureoftarget" value="Flat"/>
+    <Item key="NoSourceDataUsedInMapping" value="1"/>
+    <Item key="source_type_id" value="13"/>
+    <Item key="target_text_doc" value="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+    <Item key="target_type_id" value="1"/>
+  </Properties>
+  <InputStructure>
+    <Properties/>
+  </InputStructure>
+  <OutputStructure docId="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">[]	[]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">Text	&lt;trans&gt;
+$test.file
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

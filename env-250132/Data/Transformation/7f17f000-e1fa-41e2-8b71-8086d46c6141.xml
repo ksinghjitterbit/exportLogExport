@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="7f17f000-e1fa-41e2-8b71-8086d46c6141" Name="New Transformation (2)">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="natureoftarget" value="Flat"/>
+    <Item key="NoSourceDataUsedInMapping" value="1"/>
+    <Item key="source_type_id" value="13"/>
+    <Item key="target_text_doc" value="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+    <Item key="target_type_id" value="1"/>
+  </Properties>
+  <InputStructure>
+    <Properties/>
+  </InputStructure>
+  <OutputStructure docId="1854f47d-0951-4701-bb3c-c8b69e8ba94a"/>
+  <Mappings/>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Target">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="2eddea97-6289-487b-be25-6ce1c00aa4d3" Name="spreadsheet.header">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="GlobalData">
+    <Data>
+      <Properties>
+        <Item key="append_file" value="0"/>
+        <Item key="endoflinetype" value="0"/>
+        <Item key="locator" value="Spreadsheet: Header"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

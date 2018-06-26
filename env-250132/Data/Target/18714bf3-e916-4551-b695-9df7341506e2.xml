@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Target">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="18714bf3-e916-4551-b695-9df7341506e2" Name="URL">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="HTTP">
+    <Data>
+      <Properties>
+        <Item key="allow_weak_ciphers" value="0"/>
+        <Item key="enable_chunked_transfer_encoding" value="0"/>
+        <Item key="enable_content_encoding" value="0"/>
+        <Item key="http_accept_encoding_gzip" value="1"/>
+        <Item key="http_method" value="POST"/>
+        <Item key="http_request_headers" value=""/>
+        <Item key="http_ssl_version" value="0"/>
+        <Item key="http_verb" value="2"/>
+        <Item key="httpContentType" value="text/plain"/>
+        <Item enc="true" key="httpurl" value="$00itgtHykWqXwPHzmavaSARVNNvccu240lWrD2yMH9hHJm7FRSQ2y7WJLsU+Dx2K72+Ep07sV5/osDDVOcIuRbayQIIV3uQP0Dg9AxdALGe4p+AuHNG0b4yViRgA7sy2bDwFLEO/9G4z7ninUs1gC7f+otLJX4f0mIimL4zAjkpv0="/>
+        <Item key="proxy_tunnel" value="0"/>
+        <Item key="send_expect_100_continue" value="0"/>
+        <Item key="use_basic_http_authentication" value="0"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

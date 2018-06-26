@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Script">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="7cf3ecbd-d4d2-45aa-a23b-79ac79d1c1d7" Name="Calling Google Auth to get Access Token">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="script_condition" value="0"/>
+  </Properties>
+  <konga.string name="script">&lt;trans&gt;
+RunOperation("op.dd8ff573-a7ba-40cf-85cb-4e6b58249c58");
+
+//to create header in the sheet
+$Project="Project";
+$Environment="Environment";
+$TimeStamp="TimeStamp";
+$Operation="Operation";
+$OperationId="OperationId";
+$Status="Status";
+$Info="Info";
+$spreadsheetId='1lRRm_H9BgyFpxfF2oxm7twOKYiTfWSA6NElb88W6Fjg';
+headerToAppend=""+$Project+"\n"+$Environment+"\n"+$TimeStamp+"\n"+$Operation+"\n"+$OperationId+"\n"+$Status+"\n"+$Info;
+WriteFile("t.0450751b-26b5-4ea6-963f-8be668816022",headerToAppend);
+&lt;/trans&gt;</konga.string>
+</Entity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata version="1">
+  <dir name="_root_">
+    <file name="essendex input.xsd" type="xml" md5="4ac017e7e37959f05e536f93cb64404c" lastModified="1528778057000">
+      <property key="IsTopLevel" value="1"></property>
+      <property key="PossibleRootNodes" value="accountreference,message,messages,to,body"></property>
+      <property key="SchemaType" value="xml"></property>
+      <property key="TargetNamespace" value=""></property>
+    </file>
+    <file name="jitterbit.json.Input_Append.xsd" type="xml" md5="0ac77843cf48f18c2f4427b617b860b6" lastModified="1529393981000">
+      <property key="IsTopLevel" value="1"></property>
+      <property key="PossibleRootNodes" value="json"></property>
+      <property key="SchemaType" value="json"></property>
+      <property key="TargetNamespace" value=""></property>
+    </file>
+    <file name="jitterbit.json.input_create.xsd" type="xml" md5="48aab6ad33e67f2f6008c6a7b29ee085" lastModified="1529389588000">
+      <property key="IsTopLevel" value="1"></property>
+      <property key="PossibleRootNodes" value="json"></property>
+      <property key="SchemaType" value="json"></property>
+      <property key="TargetNamespace" value=""></property>
+    </file>
+    <file name="jitterbit.json.refresh_token.xsd" type="xml" md5="f9a92fcb6dd45b4511396a6b5c2ccaaa" lastModified="1456100672000">
+      <property key="IsTopLevel" value="1"></property>
+      <property key="PossibleRootNodes" value="json"></property>
+      <property key="SchemaType" value="json"></property>
+      <property key="TargetNamespace" value=""></property>
+    </file>
+    <file name="jitterbit.json.response_create_spreadsheet.xsd" type="xml" md5="752c49099192690f754abbe46305ba31" lastModified="1529389768000">
+      <property key="IsTopLevel" value="1"></property>
+      <property key="PossibleRootNodes" value="json"></property>
+      <property key="SchemaType" value="json"></property>
+      <property key="TargetNamespace" value=""></property>
+    </file>
+    <file name="jitterbit.json.test_google suite.xsd" type="xml" md5="b37802de56fb6a45490a8c26140a0dba" lastModified="1529283522000">
+      <property key="IsTopLevel" value="1"></property>
+      <property key="PossibleRootNodes" value="json"></property>
+      <property key="SchemaType" value="json"></property>
+      <property key="TargetNamespace" value=""></property>
+    </file>
+    <file name="person.xsd" type="xml" md5="c3718eb5e2f2f4f37080ee21a30bfba0" lastModified="1528937554000">
+      <property key="IsTopLevel" value="1"></property>
+      <property key="PossibleRootNodes" value="Addresses,Email,PhoneNumbers,Address,_root_,EmailAddresses,Person"></property>
+      <property key="SchemaType" value="xml"></property>
+      <property key="TargetNamespace" value=""></property>
+    </file>
+  </dir>
+</metadata>

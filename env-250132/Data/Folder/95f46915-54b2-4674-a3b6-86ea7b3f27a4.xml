@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Folder">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="95f46915-54b2-4674-a3b6-86ea7b3f27a4" Name="New Folder">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+</Entity>

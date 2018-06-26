@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Source">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="2febe274-fd73-4801-968e-97833a8ebeab" Name="Temporary Header for Append">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="TemporaryStorage">
+    <Data>
+      <Properties>
+        <Item key="append_file" value="0"/>
+        <Item key="character_encoding" value="UTF-8"/>
+        <Item key="endoflinetype" value="0"/>
+        <Item key="error_folder" value=""/>
+        <Item key="file_name" value="AppendHeader"/>
+        <Item key="filterOption.ignoreCase" value="0"/>
+        <Item key="filterOption.regularExpression" value="0"/>
+        <Item key="ignore_first" value="0"/>
+        <Item key="ignore_last" value="0"/>
+        <Item key="locator"/>
+        <Item key="renamefileto" value=""/>
+        <Item key="success_folder" value=""/>
+        <Item key="trigger_filename" value=""/>
+        <Item key="use_error_folder" value="0"/>
+        <Item key="use_success_folder" value="0"/>
+        <Item key="use_trigger_file" value="0"/>
+        <Item key="writeHeaders" value="0"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

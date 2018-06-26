@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Source">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="811c3343-9e95-49de-8aab-056a9f465d96" Name="response from essendex">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="GlobalData">
+    <Data>
+      <Properties>
+        <Item key="locator" value="response"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

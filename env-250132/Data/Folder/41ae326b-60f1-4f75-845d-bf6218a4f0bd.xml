@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Folder">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="41ae326b-60f1-4f75-845d-bf6218a4f0bd" Name="Spreadsheet Append">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+</Entity>

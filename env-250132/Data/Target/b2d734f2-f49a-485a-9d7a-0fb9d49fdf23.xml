@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Target">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="b2d734f2-f49a-485a-9d7a-0fb9d49fdf23" Name="essendex send">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+  <Location type="HTTP">
+    <Data>
+      <Properties>
+        <Item key="allow_weak_ciphers" value="0"/>
+        <Item key="enable_chunked_transfer_encoding" value="0"/>
+        <Item key="enable_content_encoding" value="1"/>
+        <Item key="http_accept_encoding_gzip" value="1"/>
+        <Item key="http_method" value="POST"/>
+        <Item key="http_request_headers" value="Host: api.esendex.com&#10;Authorization: Basic a3NpbmdoQGppdHRlcmJpdC5jb20uYXU6Sml0dGVyYml0QDEyMyE="/>
+        <Item key="http_ssl_version" value="0"/>
+        <Item key="http_verb" value="2"/>
+        <Item key="httpContentType" value="application/xml"/>
+        <Item enc="true" key="httpurl" value="$0048qOYd2DexccCz8vBsHXKKBLr0Z8XL3d7jZ/DDaeHNRDCARn9jSvk+z+SQZ8JunYSuKVmN18Mgk45XvCvZ4d1g=="/>
+        <Item key="proxy_tunnel" value="0"/>
+        <Item key="send_expect_100_continue" value="0"/>
+        <Item key="use_basic_http_authentication" value="0"/>
+      </Properties>
+    </Data>
+  </Location>
+</Entity>

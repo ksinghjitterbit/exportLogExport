@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Operation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="bc668fa6-733a-494d-82fd-fb9609213e7c" Name="testOperation">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="chunk_size" value="0"/>
+    <Item key="debug_mode_until" value=""/>
+    <Item key="ignore_history" value="1"/>
+    <Item key="LogLevel" value="Everything"/>
+    <Item key="max_number_of_threads" value="1"/>
+    <Item key="operation_type_id" value="3"/>
+    <Item key="run_success_op_if_no_source_files" value="0"/>
+    <Item key="source_chunk_node" value=""/>
+    <Item key="target_chunk_node" value=""/>
+    <Item key="target_chunk_size" value="0"/>
+    <Item key="timeoutseconds" value="7200"/>
+    <Item key="timeoutuiunit" value="HOURS"/>
+    <Item key="validate_source_text_file" value="0"/>
+  </Properties>
+  <Pipeline opType="Transformation">
+    <Activities>
+      <SCRIPT activityId="1620bfdd-e997-437f-b455-7cee2944c129" contentId="8fd30f7c-5504-4bbc-ab25-0f930c9ba2ac" role="Script" type="23"/>
+      <TRANSFORMATION activityId="7ed11210-debc-4e11-8785-6926fd89a617" contentId="d5a7fae0-34c1-4f7a-9d63-71e7ec92a168" role="Transformation" type="4"/>
+    </Activities>
+  </Pipeline>
+  <Siblings/>
+</Entity>

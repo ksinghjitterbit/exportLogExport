@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Folder">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="2ec172c6-93de-4e10-930f-cd410455f924" Name="Text Message">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties/>
+</Entity>

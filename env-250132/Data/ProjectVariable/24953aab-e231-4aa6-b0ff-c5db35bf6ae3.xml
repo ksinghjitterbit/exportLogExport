@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="ProjectVariable">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="24953aab-e231-4aa6-b0ff-c5db35bf6ae3" Name="google.client_id">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="description" value=""/>
+    <Item key="hide_value" value="0"/>
+    <Item key="label" value=""/>
+    <Item key="projectvariable_id" value="24953aab-e231-4aa6-b0ff-c5db35bf6ae3"/>
+    <Item enc="true" key="value" value="$00/esAVSI0vi72W76Kh1FoVv5iNAWZqyLLlqIIEzxjqw4/0zv/GGnouIaEA9nkX6B3TXH6VkKUQd/z7r2Boep7xnzcVeH/MIQ+tNXtLG4p5B18Qs9oFu5f+JVFGWa1UTLG"/>
+  </Properties>
+</Entity>

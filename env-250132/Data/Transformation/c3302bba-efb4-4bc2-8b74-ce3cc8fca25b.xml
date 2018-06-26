@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entity type="Transformation">
+  <Header Deleted="false" DeployDirty="false" Deployed="true" HasMoved="false" ID="c3302bba-efb4-4bc2-8b74-ce3cc8fca25b" Name="Transform">
+    <konga.string name="Description"/>
+  </Header>
+  <Properties>
+    <Item key="DoTargetXmlValidation" value="false"/>
+    <Item key="natureoftarget" value="Tree"/>
+    <Item key="NoSourceDataUsedInMapping" value="1"/>
+    <Item key="source_type_id" value="13"/>
+    <Item key="target_type_id" value="17"/>
+    <Item key="target_xml" value="jitterbit.json.test_google suite.xsd"/>
+    <Item key="targetdtd_root" value="json"/>
+  </Properties>
+  <InputStructure>
+    <Properties/>
+  </InputStructure>
+  <Mappings>
+    <Mapping>
+      <konga.string name="expr">[json$values$array.]	[]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">[json$values$array.item.]	[]</konga.string>
+    </Mapping>
+    <Mapping>
+      <konga.string name="expr">json$values$array.item.	&lt;trans&gt;
+1
+&lt;/trans&gt;</konga.string>
+    </Mapping>
+  </Mappings>
+  <InvalidMappings/>
+  <RenamedNodes/>
+</Entity>
